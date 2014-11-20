@@ -23131,7 +23131,7 @@ GPIO0 for programming</text>
 <pinref part="JP6" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SD_D3" class="0">
+<net name="SD_!WP!" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SPIWP/SD_DATA_3"/>
 <wire x1="86.36" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
@@ -23148,7 +23148,7 @@ GPIO0 for programming</text>
 <pinref part="TP1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SD_D2" class="0">
+<net name="SD_!HD!" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SPIHD/SD_DATA_2"/>
 <wire x1="86.36" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
@@ -23165,7 +23165,7 @@ GPIO0 for programming</text>
 <pinref part="TP4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SD_D1" class="0">
+<net name="SD_SI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SPID/SD_DATA_1"/>
 <wire x1="86.36" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
@@ -23182,7 +23182,7 @@ GPIO0 for programming</text>
 <pinref part="TP2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SD_D0" class="0">
+<net name="SD_SO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SPIQ/SD_DATA_0"/>
 <wire x1="86.36" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
@@ -23216,7 +23216,7 @@ GPIO0 for programming</text>
 <pinref part="TP3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SD_CMD" class="0">
+<net name="SD_CS0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SPICS0/SD_CMD"/>
 <wire x1="86.36" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>

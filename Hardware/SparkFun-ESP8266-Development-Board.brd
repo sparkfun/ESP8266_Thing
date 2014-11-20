@@ -536,12 +536,12 @@ VCC</text>
 <rectangle x1="2.1137875" y1="25.367615625" x2="2.3296875" y2="25.411046875" layer="21"/>
 <rectangle x1="4.50900625" y1="25.367615625" x2="5.81710625" y2="25.411046875" layer="21"/>
 <rectangle x1="5.989828125" y1="25.367615625" x2="7.821165625" y2="25.411046875" layer="21"/>
-<text x="20.0025" y="20.447" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">CMD</text>
-<text x="20.0025" y="18.4785" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">D0</text>
-<text x="20.0025" y="16.383" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">D3</text>
-<text x="22.733" y="19.6215" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">D2</text>
+<text x="20.0025" y="20.447" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">!CS!</text>
+<text x="20.0025" y="18.4785" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">SO</text>
+<text x="20.0025" y="16.383" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">!WP!</text>
+<text x="22.733" y="19.6215" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">!HD!</text>
 <text x="22.733" y="17.5895" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">CLK</text>
-<text x="22.733" y="15.621" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">D1</text>
+<text x="22.733" y="15.621" size="0.8636" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">SI</text>
 <dimension x1="0" y1="0" x2="0" y2="25.908" x3="-7.874" y3="12.954" textsize="0.8636" textratio="15" layer="49" unit="inch"/>
 <dimension x1="0" y1="0" x2="55.2704" y2="0" x3="27.6352" y3="-6.096" textsize="0.8636" textratio="15" layer="49" unit="inch"/>
 <dimension x1="10.16" y1="2.794" x2="10.16" y2="0" x3="-2.54" y3="1.397" textsize="0.8636" textratio="15" layer="49" unit="inch"/>
@@ -559,7 +559,7 @@ VCC</text>
 <text x="8.636" y="19.05" size="1.016" layer="21" font="vector" ratio="15" align="center-right">+</text>
 <text x="8.636" y="17.018" size="1.016" layer="21" font="vector" ratio="15" align="center-right">-</text>
 <text x="13.97" y="23.0632" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">GND</text>
-<text x="19.05" y="23.0632" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">VIN</text>
+<text x="19.05" y="22.9362" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">VIN</text>
 <text x="21.59" y="23.0632" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">0</text>
 <text x="24.13" y="23.0632" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">4</text>
 <text x="26.67" y="23.0632" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">15</text>
@@ -3240,7 +3240,7 @@ design rules under a new name.</description>
 <wire x1="30.988" y1="21.336" x2="30.734" y2="21.59" width="0.2032" layer="1"/>
 <contactref element="JP6" pad="5"/>
 </signal>
-<signal name="SD_D3">
+<signal name="SD_!WP!">
 <contactref element="U1" pad="19"/>
 <contactref element="U3" pad="3"/>
 <via x="30.353" y="17.78" extent="1-16" drill="0.381"/>
@@ -3259,7 +3259,7 @@ design rules under a new name.</description>
 <wire x1="20.828" y1="16.637" x2="20.828" y2="16.383" width="0.2032" layer="1"/>
 <contactref element="TP1" pad="P$1"/>
 </signal>
-<signal name="SD_D2">
+<signal name="SD_!HD!">
 <contactref element="U1" pad="18"/>
 <contactref element="U3" pad="7"/>
 <wire x1="24.2062" y1="18.669" x2="30.607" y2="18.669" width="0.2032" layer="1"/>
@@ -3270,7 +3270,7 @@ design rules under a new name.</description>
 <wire x1="23.0505" y1="18.669" x2="22.098" y2="19.6215" width="0.2032" layer="1"/>
 <contactref element="TP4" pad="P$1"/>
 </signal>
-<signal name="SD_D1">
+<signal name="SD_SI">
 <contactref element="U1" pad="23"/>
 <contactref element="U3" pad="5"/>
 <wire x1="24.2062" y1="16.129" x2="25.4" y2="16.129" width="0.2032" layer="1"/>
@@ -3283,7 +3283,7 @@ design rules under a new name.</description>
 <wire x1="22.606" y1="16.129" x2="22.098" y2="15.621" width="0.2032" layer="1"/>
 <contactref element="TP2" pad="P$1"/>
 </signal>
-<signal name="SD_D0">
+<signal name="SD_SO">
 <contactref element="U1" pad="22"/>
 <contactref element="U3" pad="2"/>
 <wire x1="26.404" y1="15.887" x2="25.527" y2="16.764" width="0.2032" layer="1"/>
@@ -3309,7 +3309,7 @@ design rules under a new name.</description>
 <wire x1="22.2885" y1="17.399" x2="22.098" y2="17.5895" width="0.2032" layer="1"/>
 <contactref element="TP3" pad="P$1"/>
 </signal>
-<signal name="SD_CMD">
+<signal name="SD_CS0">
 <contactref element="U1" pad="20"/>
 <contactref element="U3" pad="1"/>
 <wire x1="31.79" y1="17.014" x2="30.0395" y2="17.014" width="0.2032" layer="1"/>
@@ -3677,18 +3677,18 @@ design rules under a new name.</description>
 <approved hash="19,1,20c69e3e9dc6233e"/>
 <approved hash="19,1,e2dc1c241deee316"/>
 <approved hash="19,1,1afce4049a1f64e7"/>
-<approved hash="4,1,b4cda33f5ca7bbaa"/>
 <approved hash="4,1,8c1f32b3d6d94269"/>
 <approved hash="4,1,65826d90a15c34f8"/>
+<approved hash="4,1,b4cda33f5ca7bbaa"/>
 <approved hash="19,1,77d129e92b297511"/>
-<approved hash="19,1,61c13ff921397f01"/>
 <approved hash="19,1,7fc121f927b97981"/>
-<approved hash="19,1,ebc2a9faaf80edb8"/>
+<approved hash="19,1,61c13ff921397f01"/>
 <approved hash="19,1,e3d2a1eaa310e128"/>
+<approved hash="19,1,ebc2a9faaf80edb8"/>
 <approved hash="19,1,f5c2b7faa900eb38"/>
 <approved hash="19,1,e1c0a7f8b906ff3e"/>
-<approved hash="19,1,f7d0b1e8b316f52e"/>
 <approved hash="19,1,ffc0b9f8bf86f9be"/>
+<approved hash="19,1,f7d0b1e8b316f52e"/>
 <approved hash="19,1,46f3bd804d394659"/>
 <approved hash="5,1,f28e306cb3b472c6"/>
 <approved hash="19,1,1adbf516eac63ea6"/>
