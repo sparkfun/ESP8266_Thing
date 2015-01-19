@@ -22876,9 +22876,9 @@ GPIO0 for programming</text>
 <label x="93.98" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
-<label x="167.64" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="162.56" y1="104.14" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
+<label x="167.64" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
@@ -23108,9 +23108,9 @@ GPIO0 for programming</text>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="VIN"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="165.1" y1="104.14" x2="165.1" y2="127" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="101.6" x2="165.1" y2="127" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
