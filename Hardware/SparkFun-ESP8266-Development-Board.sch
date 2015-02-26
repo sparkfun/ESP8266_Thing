@@ -132,6 +132,13 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -18344,6 +18351,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="2.0KOHM1/10W5%(0603)" prefix="R" uservalue="yes">
+<description>RES-08296</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08296"/>
+<attribute name="VALUE" value="2.0k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="things">
@@ -24150,7 +24177,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="5.6pF"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="U.FL" device="" value="DNP"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
@@ -24181,7 +24208,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM1/10W1%(0603)" device="" value="2.2k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="0603" value="4.7uF"/>
@@ -24252,6 +24278,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D4" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="" value=""/>
+<part name="R4" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="2.0k"/>
 </parts>
 <sheets>
 <sheet>
@@ -24273,7 +24300,7 @@ LiPo Charger</text>
 <wire x1="147.32" y1="63.5" x2="248.92" y2="63.5" width="0.254" layer="97" style="shortdash"/>
 <text x="149.86" y="58.42" size="2.54" layer="94">Auto-Prog Jumper</text>
 <text x="236.22" y="7.62" size="2.54" layer="94">v10</text>
-<text x="114.046" y="177.038" size="2.032" layer="97">VCC Range:
+<text x="126.746" y="177.038" size="2.032" layer="97">VCC Range:
 1.7V-&gt;3.6V</text>
 <text x="30.48" y="137.16" size="2.032" layer="97" align="top-left">VBAT should be a single-
 cell LiPo battery.</text>
@@ -24288,6 +24315,12 @@ to use serial terminal debugging.</text>
 <text x="226.06" y="139.192" size="1.778" layer="97" align="top-center">I2C add.: 0x48</text>
 <text x="228.6" y="164.592" size="1.778" layer="97" align="top-center">I2C add.: 0x60</text>
 <text x="226.06" y="113.792" size="1.778" layer="97" align="top-center">I2C add.: 0x29</text>
+<text x="152.4" y="111.76" size="1.778" layer="97">Population of the components 
+in this section are optional. 
+Default DNP.</text>
+<text x="40.64" y="147.32" size="1.778" layer="97">Charge current:
+500mA</text>
+<text x="139.7" y="92.964" size="1.778" layer="97">DNP</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -24308,7 +24341,9 @@ to use serial terminal debugging.</text>
 <instance part="C8" gate="G$1" x="109.22" y="91.44" rot="R90"/>
 <instance part="GND13" gate="1" x="101.6" y="68.58"/>
 <instance part="GND17" gate="1" x="114.3" y="68.58"/>
-<instance part="J1" gate="G$1" x="137.16" y="91.44" rot="MR0"/>
+<instance part="J1" gate="G$1" x="137.16" y="91.44" smashed="yes" rot="MR0">
+<attribute name="NAME" x="140.97" y="95.504" size="1.778" layer="95" rot="MR0"/>
+</instance>
 <instance part="GND21" gate="1" x="142.24" y="78.74"/>
 <instance part="C6" gate="G$1" x="88.9" y="101.6" rot="R90"/>
 <instance part="R6" gate="G$1" x="81.28" y="109.22" rot="R90"/>
@@ -24339,10 +24374,6 @@ to use serial terminal debugging.</text>
 <instance part="GND5" gate="1" x="22.86" y="149.86"/>
 <instance part="GND1" gate="1" x="2.54" y="149.86"/>
 <instance part="GND8" gate="1" x="63.5" y="147.32"/>
-<instance part="R4" gate="G$1" x="68.58" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.3514" y="160.02" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="68.326" y="154.432" size="1.778" layer="96" rot="MR270"/>
-</instance>
 <instance part="GND9" gate="1" x="68.58" y="147.32"/>
 <instance part="GND10" gate="1" x="73.66" y="147.32"/>
 <instance part="C5" gate="G$1" x="73.66" y="157.48" smashed="yes">
@@ -24425,6 +24456,10 @@ to use serial terminal debugging.</text>
 <instance part="D4" gate="G$1" x="139.7" y="162.56"/>
 <instance part="D2" gate="G$1" x="91.44" y="48.26"/>
 <instance part="SJ1" gate="G$1" x="208.28" y="40.64" rot="R180"/>
+<instance part="R4" gate="G$1" x="68.58" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="68.3514" y="160.02" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="68.326" y="154.686" size="1.778" layer="96" rot="MR270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24680,9 +24715,9 @@ to use serial terminal debugging.</text>
 <wire x1="63.5" y1="162.56" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="68.58" y1="149.86" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -25248,8 +25283,8 @@ to use serial terminal debugging.</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="PROG"/>
 <wire x1="60.96" y1="165.1" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="162.56" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
