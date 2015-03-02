@@ -24167,7 +24167,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Y1" library="things" deviceset="CRYSTAL-GROUNDED" device="3.2X2.5" value="26MHz"/>
+<part name="Y1" library="things" deviceset="CRYSTAL-GROUNDED" device="3.2X2.5" value="26MHz">
+<attribute name="PROD_ID" value="XTAL-12454"/>
+</part>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="FTDI_BASIC" device="PTH"/>
@@ -24250,7 +24252,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
-<part name="U4" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="AP2112K-3.3V"/>
+<part name="U4" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="AP2112K-3.3V">
+<attribute name="PROD_ID" value="VREG-12457"/>
+</part>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="DMG2307L" value="2.5A/30V"/>
@@ -24264,7 +24268,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16"/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device="YES_SILK" value=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A">
+<attribute name="PROD_ID" value="SWCH-10651"/>
+</part>
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PTH-2-NC" device="" value=""/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -24331,7 +24337,9 @@ Default DNP.</text>
 <instance part="C2" gate="G$1" x="15.24" y="91.44"/>
 <instance part="GND7" gate="1" x="25.4" y="22.86"/>
 <instance part="GND3" gate="1" x="10.16" y="53.34"/>
-<instance part="Y1" gate="G$1" x="22.86" y="60.96" rot="R270"/>
+<instance part="Y1" gate="G$1" x="22.86" y="60.96" rot="R270">
+<attribute name="PROD_ID" x="22.86" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="GND2" gate="1" x="7.62" y="83.82"/>
 <instance part="GND4" gate="1" x="15.24" y="83.82"/>
 <instance part="JP4" gate="G$1" x="190.5" y="83.82" rot="MR180"/>
@@ -24408,9 +24416,9 @@ Default DNP.</text>
 <instance part="TP7" gate="G$1" x="127" y="38.1" rot="R180"/>
 <instance part="SUPPLY8" gate="G$1" x="167.64" y="101.6"/>
 <instance part="GND22" gate="1" x="167.64" y="68.58" rot="MR0"/>
-<instance part="LOGO1" gate="G$1" x="0" y="2.54"/>
-<instance part="LOGO3" gate="G$1" x="32.512" y="12.954"/>
-<instance part="LOGO4" gate="G$1" x="71.12" y="12.7"/>
+<instance part="LOGO1" gate="G$1" x="0" y="0"/>
+<instance part="LOGO3" gate="G$1" x="32.512" y="10.414"/>
+<instance part="LOGO4" gate="G$1" x="71.12" y="10.16"/>
 <instance part="E1" gate="G$1" x="119.38" y="119.38"/>
 <instance part="GND18" gate="1" x="121.92" y="99.06"/>
 <instance part="C3" gate="G$1" x="17.78" y="63.5" rot="R90"/>
@@ -24428,7 +24436,9 @@ Default DNP.</text>
 <instance part="TP2" gate="G$1" x="127" y="63.5" rot="R180"/>
 <instance part="TP3" gate="G$1" x="127" y="58.42" rot="R180"/>
 <instance part="TP4" gate="G$1" x="127" y="53.34" rot="R180"/>
-<instance part="U4" gate="G$1" x="119.38" y="162.56"/>
+<instance part="U4" gate="G$1" x="119.38" y="162.56">
+<attribute name="PROD_ID" x="119.38" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C10" gate="G$1" x="139.7" y="15.24"/>
 <instance part="C11" gate="G$1" x="195.58" y="134.62"/>
 <instance part="Q1" gate="G$1" x="86.36" y="167.64" rot="MR270"/>
@@ -24442,7 +24452,9 @@ Default DNP.</text>
 <instance part="SUPPLY11" gate="G$1" x="226.06" y="55.88"/>
 <instance part="D5" gate="G$1" x="220.98" y="40.64" rot="MR0"/>
 <instance part="SJ4" gate="G$1" x="210.82" y="88.9" rot="R90"/>
-<instance part="S1" gate="1" x="111.76" y="139.7" rot="MR180"/>
+<instance part="S1" gate="1" x="111.76" y="139.7" rot="MR180">
+<attribute name="PROD_ID" x="111.76" y="139.7" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
 <instance part="SJ3" gate="G$1" x="213.36" y="55.88"/>
 <instance part="SUPPLY12" gate="G$1" x="119.38" y="144.78"/>
 <instance part="GND24" gate="1" x="119.38" y="132.08"/>
