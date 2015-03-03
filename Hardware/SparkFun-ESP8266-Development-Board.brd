@@ -148,9 +148,9 @@
 <board>
 <plain>
 <wire x1="0" y1="-0.254" x2="0" y2="25.654" width="0.2032" layer="20"/>
-<wire x1="0" y1="25.654" x2="55.2704" y2="25.654" width="0.2032" layer="20"/>
-<wire x1="55.2704" y1="25.654" x2="55.2704" y2="-0.254" width="0.2032" layer="20"/>
-<wire x1="55.2704" y1="-0.254" x2="0" y2="-0.254" width="0.2032" layer="20"/>
+<wire x1="0" y1="25.654" x2="55.88" y2="25.654" width="0.2032" layer="20"/>
+<wire x1="55.88" y1="25.654" x2="55.88" y2="-0.254" width="0.2032" layer="20"/>
+<wire x1="55.88" y1="-0.254" x2="0" y2="-0.254" width="0.2032" layer="20"/>
 <text x="24.13" y="2.667" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SCL</text>
 <text x="21.59" y="2.667" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="center-left">SDA</text>
 <text x="19.05" y="2.667" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="center-left">3V3</text>
