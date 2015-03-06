@@ -24197,7 +24197,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U3" library="esp8266-development-board" deviceset="AT25SF041" device="-SOIC8"/>
-<part name="U5" library="esp8266-development-board" deviceset="ATECC108" device="-MAHDA" value="ATECC108-MAHDA"/>
+<part name="U5" library="esp8266-development-board" deviceset="ATECC108" device="-MAHDA" value="DNP"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="2.2KOHM1/10W1%(0603)" device="" value="2.2k"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="2.2KOHM1/10W1%(0603)" device="" value="2.2k"/>
@@ -24256,14 +24256,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="VREG-12457"/>
 </part>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="DNP"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="DMG2307L" value="2.5A/30V"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="200OHM1/10W1%(0603)" device="" value="200"/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M10" device="&quot;"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U6" library="SparkFun-Sensors" deviceset="TMP102" device="1:1"/>
+<part name="U6" library="SparkFun-Sensors" deviceset="TMP102" device="1:1" value="DNP"/>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16"/>
@@ -24274,11 +24274,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PTH-2-NC" device="" value=""/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U7" library="esp8266-development-board" deviceset="TSL2561" device="FN"/>
+<part name="U7" library="esp8266-development-board" deviceset="TSL2561" device="FN" value="DNP"/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="DNP"/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
