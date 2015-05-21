@@ -145,7 +145,7 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
@@ -24301,7 +24301,7 @@ TSL2561 (Light)</text>
 <text x="2.54" y="177.8" size="2.54" layer="94">Voltage Regulator &amp;
 LiPo Charger</text>
 <text x="2.54" y="116.84" size="2.54" layer="94">ESP8266 &amp;
-8Mb SPI Flash</text>
+4Mb SPI Flash</text>
 <text x="149.86" y="104.14" size="2.54" layer="94">Headers</text>
 <wire x1="147.32" y1="63.5" x2="248.92" y2="63.5" width="0.254" layer="97" style="shortdash"/>
 <text x="149.86" y="58.42" size="2.54" layer="94">Auto-Prog Jumper</text>
