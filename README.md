@@ -12,6 +12,7 @@ The SparkFun ESP8266 Thing is a relatively simple board. The pins are broken out
 Repository Contents
 -------------------
 
+* **/Documentation** - Graphical datasheets (.pdf, .svg)
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
@@ -23,13 +24,15 @@ Product Versions
 ----------------
 * [DEV-13231](https://www.sparkfun.com/products/13231)- V1.0 release of the Thing.
 
+
 License Information
 -------------------
+
 This product is _**open source**_! 
 
-The **hardware** is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+Please review the LICENSE.md file for license information. 
 
-The **code** is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
 
 Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics and release anything derivative under the same license.
 
