@@ -19,6 +19,8 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide)** - Exhaustive hookup guide for the ESP8266 Thing.
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
 Product Versions
 ----------------
