@@ -18,34 +18,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -70,6 +70,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
@@ -88,7 +90,10 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -97,6 +102,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
@@ -139,11 +145,14 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -2118,7 +2127,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
 <package name="SFE_LOGO_NAME_.2">
-<polygon width="0" layer="21">
+<description>&lt;h3&gt;SparkFun Font Logo - 0.2" Height - Silkscreen&lt;/h3&gt;
+&lt;p&gt;SparkFun font logo&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;SFE_LOGO_NAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
 <vertex x="0.74" y="2.6"/>
 <vertex x="0.75" y="2.49"/>
 <vertex x="0.79" y="2.39"/>
@@ -2232,7 +2245,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.55" y="2.6"/>
 <vertex x="0.65" y="2.6"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="4.95" y="2.61"/>
 <vertex x="5" y="2.76"/>
 <vertex x="5.02" y="2.92"/>
@@ -2242,7 +2255,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5.73" y="2.52"/>
 <vertex x="5.63" y="2.28"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="5.63" y="2.28"/>
 <vertex x="5.5" y="2.06"/>
 <vertex x="5.32" y="1.87"/>
@@ -2345,7 +2358,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="4.89" y="2.47"/>
 <vertex x="4.95" y="2.61"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="6.99" y="3.31"/>
 <vertex x="7.17" y="3.33"/>
 <vertex x="7.34" y="3.35"/>
@@ -2362,7 +2375,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.18" y="2.89"/>
 <vertex x="7.13" y="2.88"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.13" y="2.87"/>
 <vertex x="7.09" y="2.86"/>
 <vertex x="7.05" y="2.85"/>
@@ -2625,7 +2638,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.81" y="3.28"/>
 <vertex x="6.99" y="3.31"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="9.13" y="4.38"/>
 <vertex x="9.22" y="4.4"/>
 <vertex x="9.31" y="4.41"/>
@@ -2707,7 +2720,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.12" y="3.71"/>
 <vertex x="9.12" y="4.04"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="11.25" y="5.16"/>
 <vertex x="12.03" y="5.59"/>
 <vertex x="12.03" y="3.5"/>
@@ -2721,7 +2734,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.03" y="1.69"/>
 <vertex x="11.25" y="1.69"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="14.52" y="3.99"/>
 <vertex x="14.42" y="3.99"/>
 <vertex x="14.33" y="3.99"/>
@@ -2851,7 +2864,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="14.52" y="3.42"/>
 <vertex x="14.52" y="3.7"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="18.7" y="1.69"/>
 <vertex x="18.61" y="1.69"/>
 <vertex x="18.52" y="1.69"/>
@@ -2950,7 +2963,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.71" y="2.39"/>
 <vertex x="18.71" y="2.04"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.13" y="4.51"/>
 <vertex x="19.22" y="4.51"/>
 <vertex x="19.31" y="4.51"/>
@@ -3051,27 +3064,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_FLAME_.1">
-<polygon width="0" layer="21">
-<vertex x="1.7" y="2.48"/>
-<vertex x="1.7" y="2.46"/>
-<vertex x="1.7" y="2.43"/>
+<description>&lt;h3&gt;SparkFun Flame Logo - 0.1" Height - Silkscreen&lt;/h3&gt;
+&lt;p&gt;SparkFun Flame Logo&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;SFE_LOGO_FLAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
+<vertex x="1.7" y="2.49"/>
 <vertex x="1.7" y="2.4"/>
 <vertex x="1.69" y="2.37"/>
 <vertex x="1.68" y="2.35"/>
 <vertex x="1.65" y="2.32"/>
 <vertex x="1.62" y="2.31"/>
 <vertex x="1.59" y="2.31"/>
-<vertex x="1.55" y="2.32"/>
 <vertex x="1.51" y="2.33"/>
 <vertex x="1.47" y="2.35"/>
 <vertex x="1.44" y="2.37"/>
 <vertex x="1.4" y="2.4"/>
-<vertex x="1.37" y="2.43"/>
 <vertex x="1.34" y="2.46"/>
-<vertex x="1.32" y="2.49"/>
 <vertex x="1.3" y="2.52"/>
 <vertex x="1.29" y="2.56"/>
-<vertex x="1.29" y="2.59"/>
 <vertex x="1.29" y="2.62"/>
 <vertex x="1.3" y="2.65"/>
 <vertex x="1.31" y="2.67"/>
@@ -3080,13 +3091,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.41" y="2.75"/>
 <vertex x="1.46" y="2.76"/>
 <vertex x="1.5" y="2.77"/>
-<vertex x="1.53" y="2.77"/>
 <vertex x="1.56" y="2.77"/>
 <vertex x="1.58" y="2.76"/>
 <vertex x="1.59" y="2.76"/>
 <vertex x="1.58" y="2.77"/>
 <vertex x="1.54" y="2.8"/>
-<vertex x="1.48" y="2.83"/>
 <vertex x="1.4" y="2.87"/>
 <vertex x="1.31" y="2.89"/>
 <vertex x="1.21" y="2.89"/>
@@ -3110,58 +3119,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.86" y="1.75"/>
 <vertex x="0.81" y="1.76"/>
 <vertex x="0.76" y="1.78"/>
-<vertex x="0.73" y="1.81"/>
 <vertex x="0.7" y="1.84"/>
 <vertex x="0.68" y="1.87"/>
 <vertex x="0.67" y="1.9"/>
 <vertex x="0.67" y="1.94"/>
 <vertex x="0.68" y="1.97"/>
-<vertex x="0.7" y="1.99"/>
-<vertex x="0.72" y="2.01"/>
 <vertex x="0.74" y="2.03"/>
 <vertex x="0.77" y="2.04"/>
-<vertex x="0.79" y="2.05"/>
 <vertex x="0.81" y="2.06"/>
 <vertex x="0.82" y="2.07"/>
-<vertex x="0.8" y="2.08"/>
 <vertex x="0.78" y="2.09"/>
-<vertex x="0.74" y="2.09"/>
-<vertex x="0.7" y="2.09"/>
 <vertex x="0.66" y="2.09"/>
 <vertex x="0.6" y="2.08"/>
 <vertex x="0.55" y="2.07"/>
 <vertex x="0.5" y="2.05"/>
 <vertex x="0.46" y="2.02"/>
 <vertex x="0.41" y="1.98"/>
-<vertex x="0.38" y="1.93"/>
 <vertex x="0.35" y="1.88"/>
 <vertex x="0.33" y="1.81"/>
 <vertex x="0.32" y="1.73"/>
-<vertex x="0.32" y="1.63"/>
-<vertex x="0.32" y="1.47"/>
-<vertex x="0.32" y="1.31"/>
-<vertex x="0.32" y="1.15"/>
-<vertex x="0.32" y="0.99"/>
-<vertex x="0.32" y="0.83"/>
-<vertex x="0.32" y="0.67"/>
-<vertex x="0.32" y="0.51"/>
-<vertex x="0.32" y="0.35"/>
 <vertex x="0.32" y="0.36"/>
-<vertex x="0.34" y="0.38"/>
 <vertex x="0.37" y="0.41"/>
 <vertex x="0.4" y="0.46"/>
 <vertex x="0.45" y="0.51"/>
 <vertex x="0.5" y="0.57"/>
-<vertex x="0.56" y="0.63"/>
 <vertex x="0.62" y="0.69"/>
-<vertex x="0.68" y="0.76"/>
 <vertex x="0.74" y="0.83"/>
-<vertex x="0.79" y="0.88"/>
 <vertex x="0.84" y="0.93"/>
-<vertex x="0.89" y="0.96"/>
 <vertex x="0.94" y="0.99"/>
 <vertex x="1" y="1"/>
-<vertex x="1.07" y="1"/>
 <vertex x="1.19" y="1"/>
 <vertex x="1.31" y="1.02"/>
 <vertex x="1.42" y="1.05"/>
@@ -3177,10 +3163,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.93" y="2.24"/>
 <vertex x="1.86" y="2.35"/>
 <vertex x="1.78" y="2.44"/>
-<vertex x="1.7" y="2.49"/>
 </polygon>
 </package>
 <package name="OSHW-LOGO-S">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <polygon width="0.15" layer="21">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
 <vertex x="0.5465" y="-0.8746"/>
@@ -3399,48 +3388,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
 <rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
 <rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
-</package>
-<package name="TRACE_ANTENNA_2.4GHZ_25.7MM">
-<polygon width="0" layer="1">
-<vertex x="-0.23" y="0"/>
-<vertex x="-0.23" y="2.28"/>
-<vertex x="-0.73" y="2.69"/>
-<vertex x="-3.88" y="2.69"/>
-<vertex x="-3.88" y="3.9"/>
-<vertex x="-2.88" y="3.9"/>
-<vertex x="-2.88" y="4.7"/>
-<vertex x="-8.68" y="4.7"/>
-<vertex x="-8.68" y="2.03"/>
-<vertex x="-0.68" y="2.03"/>
-<vertex x="-0.68" y="0"/>
-<vertex x="-1.68" y="0"/>
-<vertex x="-1.68" y="0.7"/>
-<vertex x="-2.88" y="0.7"/>
-<vertex x="-2.88" y="0"/>
-<vertex x="-3.88" y="0"/>
-<vertex x="-3.88" y="0.74"/>
-<vertex x="-10.86" y="0.74"/>
-<vertex x="-10.86" y="6.91"/>
-<vertex x="14.72" y="6.91"/>
-<vertex x="14.72" y="5.7"/>
-<vertex x="-1.68" y="5.7"/>
-<vertex x="-1.68" y="3.9"/>
-<vertex x="-0.68" y="3.9"/>
-<vertex x="-0.68" y="3.29"/>
-<vertex x="0.23" y="2.53"/>
-<vertex x="0.23" y="0"/>
-</polygon>
-<smd name="ANT" x="0" y="0.23" dx="0.46" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND" x="-1.18" y="0.23" dx="1" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND2" x="-3.38" y="0.23" dx="1" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
-<wire x1="-0.68" y1="0" x2="-11" y2="0" width="0.1" layer="51"/>
-<wire x1="-0.68" y1="-2" x2="-0.68" y2="0" width="0.1" layer="51"/>
-<wire x1="0.68" y1="0" x2="0.68" y2="-2" width="0.1" layer="51"/>
-<wire x1="0.68" y1="0" x2="14.75" y2="0" width="0.1" layer="51"/>
-<text x="-11.049" y="-1.397" size="0.889" layer="51" font="vector">Ground Plane</text>
-<text x="2.921" y="-1.397" size="0.889" layer="51" font="vector">Ground Plane</text>
-<wire x1="-11" y1="7.52" x2="14.75" y2="7.52" width="0.1" layer="51"/>
-<text x="-4.449" y="7.703" size="0.889" layer="51" font="vector">Board edge</text>
 </package>
 <package name="FN-6">
 <circle x="-0.65" y="1.35" radius="0.1" width="0.3048" layer="21"/>
@@ -5187,6 +5134,70 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-RF">
+<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
+In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TRACE_ANTENNA_2.4GHZ_25.7MM">
+<description>&lt;h3&gt;2.4GHz Inverted F PCB Trace Antenna&lt;/h3&gt;
+&lt;p&gt;PCB trace antenna with a 25.7 x 7.5 mm footprint.&lt;/p&gt;
+&lt;p&gt;Based on layout from &lt;a href="http://www.ti.com/lit/an/swru120b/swru120b.pdf"&gt;TI design note DN0007&lt;/a&gt;.&lt;/p&gt;</description>
+<polygon width="0.002540625" layer="1">
+<vertex x="-0.23" y="0"/>
+<vertex x="-0.23" y="2.28"/>
+<vertex x="-0.73" y="2.69"/>
+<vertex x="-3.88" y="2.69"/>
+<vertex x="-3.88" y="3.9"/>
+<vertex x="-2.88" y="3.9"/>
+<vertex x="-2.88" y="4.7"/>
+<vertex x="-8.68" y="4.7"/>
+<vertex x="-8.68" y="2.03"/>
+<vertex x="-0.68" y="2.03"/>
+<vertex x="-0.68" y="0"/>
+<vertex x="-1.68" y="0"/>
+<vertex x="-1.68" y="0.7"/>
+<vertex x="-2.88" y="0.7"/>
+<vertex x="-2.88" y="0"/>
+<vertex x="-3.88" y="0"/>
+<vertex x="-3.88" y="0.74"/>
+<vertex x="-10.86" y="0.74"/>
+<vertex x="-10.86" y="6.91"/>
+<vertex x="14.72" y="6.91"/>
+<vertex x="14.72" y="5.7"/>
+<vertex x="-1.68" y="5.7"/>
+<vertex x="-1.68" y="3.9"/>
+<vertex x="-0.68" y="3.9"/>
+<vertex x="-0.68" y="3.29"/>
+<vertex x="0.23" y="2.53"/>
+<vertex x="0.23" y="0"/>
+</polygon>
+<smd name="ANT" x="0" y="0.23" dx="0.46" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-1.18" y="0.23" dx="1" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND2" x="-3.38" y="0.23" dx="1" dy="0.46" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-0.68" y1="0" x2="-11" y2="0" width="0.1" layer="51"/>
+<wire x1="-0.68" y1="-2" x2="-0.68" y2="0" width="0.1" layer="51"/>
+<wire x1="0.68" y1="0" x2="0.68" y2="-2" width="0.1" layer="51"/>
+<wire x1="0.68" y1="0" x2="14.75" y2="0" width="0.1" layer="51"/>
+<text x="-11.049" y="-1.397" size="0.889" layer="51" font="vector">Ground Plane</text>
+<text x="2.921" y="-1.397" size="0.889" layer="51" font="vector">Ground Plane</text>
+<wire x1="-11" y1="7.52" x2="14.75" y2="7.52" width="0.1" layer="51"/>
+<text x="-4.449" y="7.703" size="0.889" layer="51" font="vector">Board edge</text>
+<text x="3.81" y="4.445" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5196,23 +5207,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun-2-layer">
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="SparkFun-2-layer-STANDARD">
+<description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - STANDARD/TIGHT/FAB-LIMIT&lt;/b&gt;
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+These rules have been curated by SparkFuns DFM commitee. After doing much research, communicating with our multiple fab houses, and getting quotes of various designs, we have compiled three DRU files. 
+&lt;p&gt;
+&lt;b&gt;STANDARD:&lt;/b&gt; This is more of a &quot;best case scenario&quot; set of limitations. If your design has the space, and/or you have the time to work within these parameters, please do. Larger trace width and clearance makes for easier visual inspection of the PCB while troubleshooting (useful in production and to the end user). It also allows for better ability to hack a trace (if you are crazy enough to scrape away the mask and solder to a trace). Another thing to keep in mind is that more metal is just more robust. 
+&lt;p&gt;
+&lt;b&gt;TIGHT:&lt;/b&gt; This is where cost comes into play. We have found that most fab houses begin to add extra charges when you go smaller than these specs. In some cases, going to less than 15 mil trace can increase the cost by 10%. (This is why we have set the min drill on this DRU to 15 mil) Same story for traces thinner than 7 mil. To avoid those extra charges, then stay within the rules of this DRU.
+&lt;p&gt;
+&lt;b&gt;FAB-LIMIT:&lt;/b&gt; These set of rules are at the very limit of most fab houses capabilities. You will pay more for these specs, and it should be used on designs that have a darned good reason to need 4 mil vias and 4 mil traces.
+&lt;p&gt;
+**NOTE Clearance, Distance, Sizes, and Restring are all set to different limits in each of these three DRU files. Please compare the files within the CAM job editor window of eagle to see all the numbers.
+&lt;p&gt;
+***NOTE, Please set your Net Classes to default (0mil for all settings), so that it won't effect the DRC when you run it with these settings.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
+<param name="mdWireWire" value="10mil"/>
 <param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="8mil"/>
+<param name="mdWireVia" value="10mil"/>
 <param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="10mil"/>
 <param name="mdSmdPad" value="8mil"/>
 <param name="mdSmdVia" value="8mil"/>
 <param name="mdSmdSmd" value="8mil"/>
@@ -5221,8 +5238,8 @@ design rules under a new name.</description>
 <param name="mdCopperDimension" value="8mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="7mil"/>
-<param name="msDrill" value="15mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="20mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -5232,11 +5249,11 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="12mil"/>
+<param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="12mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
 <param name="rlMinViaOuter" value="10mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
@@ -5257,7 +5274,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="20mil"/>
+<param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -5512,7 +5529,7 @@ design rules under a new name.</description>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="59.944" y="8.763" smashed="yes" rot="MR90"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="13.4994625" y="7.362190625" smashed="yes"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="18.288" y="9.017" smashed="yes"/>
-<element name="E1" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="21.7415" smashed="yes" rot="R270"/>
+<element name="E1" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="21.7415" smashed="yes" rot="R270"/>
 <element name="C3" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="39.243" y="17.272" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="39.243" y="17.272" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="38.608" y="18.542" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -5773,7 +5790,7 @@ design rules under a new name.</description>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="119.634" y="8.763" smashed="yes" rot="MR90"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="73.1894625" y="7.362190625" smashed="yes"/>
 <element name="LOGO7" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="77.978" y="9.017" smashed="yes"/>
-<element name="E2" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="21.7415" smashed="yes" rot="R270"/>
+<element name="E2" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="21.7415" smashed="yes" rot="R270"/>
 <element name="C20" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="98.933" y="17.272" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="98.933" y="17.272" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="98.298" y="18.542" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -6034,7 +6051,7 @@ design rules under a new name.</description>
 <element name="LOGO9" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="179.324" y="8.763" smashed="yes" rot="MR90"/>
 <element name="LOGO10" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="132.8794625" y="7.362190625" smashed="yes"/>
 <element name="LOGO11" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="137.668" y="9.017" smashed="yes"/>
-<element name="E3" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="21.7415" smashed="yes" rot="R270"/>
+<element name="E3" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="21.7415" smashed="yes" rot="R270"/>
 <element name="C32" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="158.623" y="17.272" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="158.623" y="17.272" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="157.988" y="18.542" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -6295,7 +6312,7 @@ design rules under a new name.</description>
 <element name="LOGO13" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="59.944" y="35.179" smashed="yes" rot="MR90"/>
 <element name="LOGO14" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="13.4994625" y="33.778190625" smashed="yes"/>
 <element name="LOGO15" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="18.288" y="35.433" smashed="yes"/>
-<element name="E4" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="48.1575" smashed="yes" rot="R270"/>
+<element name="E4" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="48.1575" smashed="yes" rot="R270"/>
 <element name="C44" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="39.243" y="43.688" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="39.243" y="43.688" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="38.608" y="44.958" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -6556,7 +6573,7 @@ design rules under a new name.</description>
 <element name="LOGO17" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="119.634" y="35.179" smashed="yes" rot="MR90"/>
 <element name="LOGO18" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="73.1894625" y="33.778190625" smashed="yes"/>
 <element name="LOGO19" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="77.978" y="35.433" smashed="yes"/>
-<element name="E5" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="48.1575" smashed="yes" rot="R270"/>
+<element name="E5" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="48.1575" smashed="yes" rot="R270"/>
 <element name="C56" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="98.933" y="43.688" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="98.933" y="43.688" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="98.298" y="44.958" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -6817,7 +6834,7 @@ design rules under a new name.</description>
 <element name="LOGO21" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="179.324" y="35.179" smashed="yes" rot="MR90"/>
 <element name="LOGO22" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="132.8794625" y="33.778190625" smashed="yes"/>
 <element name="LOGO23" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="137.668" y="35.433" smashed="yes"/>
-<element name="E6" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="48.1575" smashed="yes" rot="R270"/>
+<element name="E6" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="48.1575" smashed="yes" rot="R270"/>
 <element name="C68" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="158.623" y="43.688" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="158.623" y="43.688" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="157.988" y="44.958" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -7078,7 +7095,7 @@ design rules under a new name.</description>
 <element name="LOGO25" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="59.944" y="61.595" smashed="yes" rot="MR90"/>
 <element name="LOGO26" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="13.4994625" y="60.194190625" smashed="yes"/>
 <element name="LOGO27" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="18.288" y="61.849" smashed="yes"/>
-<element name="E7" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="74.5735" smashed="yes" rot="R270"/>
+<element name="E7" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="74.5735" smashed="yes" rot="R270"/>
 <element name="C80" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="39.243" y="70.104" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="39.243" y="70.104" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="38.608" y="71.374" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -7339,7 +7356,7 @@ design rules under a new name.</description>
 <element name="LOGO29" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="119.634" y="61.595" smashed="yes" rot="MR90"/>
 <element name="LOGO30" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="73.1894625" y="60.194190625" smashed="yes"/>
 <element name="LOGO31" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="77.978" y="61.849" smashed="yes"/>
-<element name="E8" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="74.5735" smashed="yes" rot="R270"/>
+<element name="E8" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="74.5735" smashed="yes" rot="R270"/>
 <element name="C92" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="98.933" y="70.104" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="98.933" y="70.104" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="98.298" y="71.374" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -7600,7 +7617,7 @@ design rules under a new name.</description>
 <element name="LOGO33" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="179.324" y="61.595" smashed="yes" rot="MR90"/>
 <element name="LOGO34" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="132.8794625" y="60.194190625" smashed="yes"/>
 <element name="LOGO35" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="137.668" y="61.849" smashed="yes"/>
-<element name="E9" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="74.5735" smashed="yes" rot="R270"/>
+<element name="E9" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="74.5735" smashed="yes" rot="R270"/>
 <element name="C104" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="158.623" y="70.104" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="158.623" y="70.104" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="157.988" y="71.374" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -7861,7 +7878,7 @@ design rules under a new name.</description>
 <element name="LOGO37" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="59.944" y="88.011" smashed="yes" rot="MR90"/>
 <element name="LOGO38" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="13.4994625" y="86.610190625" smashed="yes"/>
 <element name="LOGO39" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="18.288" y="88.265" smashed="yes"/>
-<element name="E10" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="100.9895" smashed="yes" rot="R270"/>
+<element name="E10" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="100.9895" smashed="yes" rot="R270"/>
 <element name="C116" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="39.243" y="96.52" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="39.243" y="96.52" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="38.608" y="97.79" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -8122,7 +8139,7 @@ design rules under a new name.</description>
 <element name="LOGO41" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="119.634" y="88.011" smashed="yes" rot="MR90"/>
 <element name="LOGO42" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="73.1894625" y="86.610190625" smashed="yes"/>
 <element name="LOGO43" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="77.978" y="88.265" smashed="yes"/>
-<element name="E11" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="100.9895" smashed="yes" rot="R270"/>
+<element name="E11" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="100.9895" smashed="yes" rot="R270"/>
 <element name="C128" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="98.933" y="96.52" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="98.933" y="96.52" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="98.298" y="97.79" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -8383,7 +8400,7 @@ design rules under a new name.</description>
 <element name="LOGO45" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="179.324" y="88.011" smashed="yes" rot="MR90"/>
 <element name="LOGO46" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="132.8794625" y="86.610190625" smashed="yes"/>
 <element name="LOGO47" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="137.668" y="88.265" smashed="yes"/>
-<element name="E12" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="100.9895" smashed="yes" rot="R270"/>
+<element name="E12" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="100.9895" smashed="yes" rot="R270"/>
 <element name="C140" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="158.623" y="96.52" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="158.623" y="96.52" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="157.988" y="97.79" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -8644,7 +8661,7 @@ design rules under a new name.</description>
 <element name="LOGO49" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="59.944" y="114.427" smashed="yes" rot="MR90"/>
 <element name="LOGO50" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="13.4994625" y="113.026190625" smashed="yes"/>
 <element name="LOGO51" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="18.288" y="114.681" smashed="yes"/>
-<element name="E13" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="127.4055" smashed="yes" rot="R270"/>
+<element name="E13" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="127.4055" smashed="yes" rot="R270"/>
 <element name="C152" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="39.243" y="122.936" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="39.243" y="122.936" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="38.608" y="124.206" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -8905,7 +8922,7 @@ design rules under a new name.</description>
 <element name="LOGO53" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="119.634" y="114.427" smashed="yes" rot="MR90"/>
 <element name="LOGO54" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="73.1894625" y="113.026190625" smashed="yes"/>
 <element name="LOGO55" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="77.978" y="114.681" smashed="yes"/>
-<element name="E14" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="127.4055" smashed="yes" rot="R270"/>
+<element name="E14" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="127.4055" smashed="yes" rot="R270"/>
 <element name="C164" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="98.933" y="122.936" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="98.933" y="122.936" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="98.298" y="124.206" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -9166,7 +9183,7 @@ design rules under a new name.</description>
 <element name="LOGO57" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="179.324" y="114.427" smashed="yes" rot="MR90"/>
 <element name="LOGO58" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="132.8794625" y="113.026190625" smashed="yes"/>
 <element name="LOGO59" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="137.668" y="114.681" smashed="yes"/>
-<element name="E15" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="127.4055" smashed="yes" rot="R270"/>
+<element name="E15" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="127.4055" smashed="yes" rot="R270"/>
 <element name="C176" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="158.623" y="122.936" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="158.623" y="122.936" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="157.988" y="124.206" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -9427,7 +9444,7 @@ design rules under a new name.</description>
 <element name="LOGO61" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="59.944" y="140.843" smashed="yes" rot="MR90"/>
 <element name="LOGO62" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="13.4994625" y="139.442190625" smashed="yes"/>
 <element name="LOGO63" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="18.288" y="141.097" smashed="yes"/>
-<element name="E16" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="153.8215" smashed="yes" rot="R270"/>
+<element name="E16" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="153.8215" smashed="yes" rot="R270"/>
 <element name="C188" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="39.243" y="149.352" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="39.243" y="149.352" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="38.608" y="150.622" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -9688,7 +9705,7 @@ design rules under a new name.</description>
 <element name="LOGO65" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="119.634" y="140.843" smashed="yes" rot="MR90"/>
 <element name="LOGO66" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="73.1894625" y="139.442190625" smashed="yes"/>
 <element name="LOGO67" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="77.978" y="141.097" smashed="yes"/>
-<element name="E17" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="153.8215" smashed="yes" rot="R270"/>
+<element name="E17" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="153.8215" smashed="yes" rot="R270"/>
 <element name="C200" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="98.933" y="149.352" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="98.933" y="149.352" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="98.298" y="150.622" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -9949,7 +9966,7 @@ design rules under a new name.</description>
 <element name="LOGO69" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="179.324" y="140.843" smashed="yes" rot="MR90"/>
 <element name="LOGO70" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="132.8794625" y="139.442190625" smashed="yes"/>
 <element name="LOGO71" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="137.668" y="141.097" smashed="yes"/>
-<element name="E18" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="153.8215" smashed="yes" rot="R270"/>
+<element name="E18" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="153.8215" smashed="yes" rot="R270"/>
 <element name="C212" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="158.623" y="149.352" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="158.623" y="149.352" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="157.988" y="150.622" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -10210,7 +10227,7 @@ design rules under a new name.</description>
 <element name="LOGO73" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="59.944" y="167.259" smashed="yes" rot="MR90"/>
 <element name="LOGO74" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="13.4994625" y="165.858190625" smashed="yes"/>
 <element name="LOGO75" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="18.288" y="167.513" smashed="yes"/>
-<element name="E19" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="180.2375" smashed="yes" rot="R270"/>
+<element name="E19" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="58.42" y="180.2375" smashed="yes" rot="R270"/>
 <element name="C224" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="39.243" y="175.768" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="39.243" y="175.768" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="38.608" y="177.038" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -10471,7 +10488,7 @@ design rules under a new name.</description>
 <element name="LOGO77" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="119.634" y="167.259" smashed="yes" rot="MR90"/>
 <element name="LOGO78" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="73.1894625" y="165.858190625" smashed="yes"/>
 <element name="LOGO79" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="77.978" y="167.513" smashed="yes"/>
-<element name="E20" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="180.2375" smashed="yes" rot="R270"/>
+<element name="E20" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="118.11" y="180.2375" smashed="yes" rot="R270"/>
 <element name="C236" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="98.933" y="175.768" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="98.933" y="175.768" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="98.298" y="177.038" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -10732,7 +10749,7 @@ design rules under a new name.</description>
 <element name="LOGO81" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="179.324" y="167.259" smashed="yes" rot="MR90"/>
 <element name="LOGO82" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="132.8794625" y="165.858190625" smashed="yes"/>
 <element name="LOGO83" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="137.668" y="167.513" smashed="yes"/>
-<element name="E21" library="esp8266-development-board" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="180.2375" smashed="yes" rot="R270"/>
+<element name="E21" library="SparkFun-RF" package="TRACE_ANTENNA_2.4GHZ_25.7MM" value="ANTENNATRACE" x="177.8" y="180.2375" smashed="yes" rot="R270"/>
 <element name="C248" library="SparkFun-Capacitors" package="0603-CAP" value="10pF" x="158.623" y="175.768" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-11812" x="158.623" y="175.768" size="0.086359375" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="157.988" y="177.038" size="0.4064" layer="25" font="vector" rot="R180"/>
@@ -28244,207 +28261,6 @@ design rules under a new name.</description>
 <wire x1="136.283" y1="185.293" x2="135.14" y2="186.436" width="0.254" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="19,16,2f58f14d81ab3257"/>
-<approved hash="19,16,fe8e4b7a966c4e71"/>
-<approved hash="4,1,52c2ad12e57fdfb6"/>
-<approved hash="4,1,5b3a39fb41973d26"/>
-<approved hash="19,16,4f5af959a53b61d2"/>
-<approved hash="19,16,f68b2b6ac5f86af3"/>
-<approved hash="19,16,3da57ba1e1f8a71a"/>
-<approved hash="19,16,9882b37feaeb03fd"/>
-<approved hash="19,16,d754974acc2e4edb"/>
-<approved hash="19,16,e002a1e8a951e85d"/>
-<approved hash="19,16,df5a8b29c4cf4f55"/>
-<approved hash="19,16,848cbb1eeb080b73"/>
-<approved hash="19,16,8f28a8c3bf5272ef"/>
-<approved hash="5,16,36da33772151d5a2"/>
-<approved hash="19,16,713f2c4a3d9f4c82"/>
-<approved hash="19,16,26f0f3999ca0a39f"/>
-<approved hash="5,16,3a590da842b0aca3"/>
-<approved hash="19,16,00d7273b70aabd10"/>
-<approved hash="5,16,36da337369559da2"/>
-<approved hash="5,16,a223698c1b2a1d05"/>
-<approved hash="19,16,aff07a9d97a4a89f"/>
-<approved hash="19,16,513f0c424d973c82"/>
-<approved hash="19,16,13df1c4c1775f324"/>
-<approved hash="19,16,3769d3e2a2ef6eae"/>
-<approved hash="19,16,b41849b22f1f3977"/>
-<approved hash="19,16,4f96386f84435b55"/>
-<approved hash="19,16,d46592b7485dcc64"/>
-<approved hash="19,16,983bb58b6d7b8220"/>
-<approved hash="19,16,b5a7f9f9e369afd1"/>
-<approved hash="19,16,5aee2055a825d278"/>
-<approved hash="19,16,f400bcc4e141a963"/>
-<approved hash="5,16,4e4c26081a6b6cc0"/>
-<approved hash="19,16,5c65bdc4e88dc9cd"/>
-<approved hash="19,16,57911c58074e8e6c"/>
-<approved hash="19,16,1633b49d2c814cc4"/>
-<approved hash="19,16,52bb42082034c26f"/>
-<approved hash="19,16,19416e7ca6f0d12b"/>
-<approved hash="19,16,8edc81310b88efa7"/>
-<approved hash="19,16,d5907266caebc6d7"/>
-<approved hash="19,16,0f18f2b44a995cf7"/>
-<approved hash="19,16,2c10afe39d4cc95c"/>
-<approved hash="19,16,7251ca69d7c16ff9"/>
-<approved hash="19,1,4bed70a160a8e375"/>
-<approved hash="19,16,6bc3fdfbffa06998"/>
-<approved hash="3,1,1eb9044104981e60"/>
-<approved hash="4,1,e3a5f9d73ddbba1b"/>
-<approved hash="4,1,79840113c9777290"/>
-<approved hash="19,1,a828b65e4e605016"/>
-<approved hash="19,1,07dfeca2b2bb65a5"/>
-<approved hash="19,1,5c9f5d51c22fea95"/>
-<approved hash="19,1,d7c467bc5301e359"/>
-<approved hash="19,1,bd6b8c107f4bad0e"/>
-<approved hash="3,1,1dfc240024771d8b"/>
-<approved hash="3,1,1eeb1ce91ce91eeb"/>
-<approved hash="4,1,77e445abbce4a945"/>
-<approved hash="4,1,f427c4dc867353ed"/>
-<approved hash="19,1,69df82a26fb9b8a7"/>
-<approved hash="19,1,67df9d907af7b627"/>
-<approved hash="19,1,3d9a6e1fbc13295e"/>
-<approved hash="19,1,3716701db72d3c7e"/>
-<approved hash="19,16,e7d071e87c2eea16"/>
-<approved hash="19,16,ee1358e75411e2e5"/>
-<approved hash="19,16,db6f8e9b8df7d803"/>
-<approved hash="19,16,f2d71588fa58f4c7"/>
-<approved hash="19,16,2f8358ec80463add"/>
-<approved hash="19,16,71b59ad6756979d8"/>
-<approved hash="19,16,2d5c967292c5549d"/>
-<approved hash="19,16,da7fadfd90f5aa7b"/>
-<approved hash="19,16,02c1d2f9dcef0cd7"/>
-<approved hash="19,16,0cc1dcf9d89308ab"/>
-<approved hash="19,16,36fbe6c3e4d734ef"/>
-<approved hash="19,16,625cba64beaf6697"/>
-<approved hash="19,16,e33c3b043fcee7f6"/>
-<approved hash="19,16,e3463b7e3e94e6ac"/>
-<approved hash="4,1,f8a81400db9880ba"/>
-<approved hash="4,1,c7b7386a1ebd5c10"/>
-<approved hash="19,1,20c69e3e9dc6233e"/>
-<approved hash="19,1,e2dc1c241deee316"/>
-<approved hash="19,1,1afce4049a1f64e7"/>
-<approved hash="4,1,8c1f32b3d6d94269"/>
-<approved hash="4,1,65826d90a15c34f8"/>
-<approved hash="4,1,b4cda33f5ca7bbaa"/>
-<approved hash="19,1,77d129e92b297511"/>
-<approved hash="19,1,7fc121f927b97981"/>
-<approved hash="19,1,61c13ff921397f01"/>
-<approved hash="19,1,e3d2a1eaa310e128"/>
-<approved hash="19,1,ebc2a9faaf80edb8"/>
-<approved hash="19,1,f5c2b7faa900eb38"/>
-<approved hash="19,1,e1c0a7f8b906ff3e"/>
-<approved hash="19,1,ffc0b9f8bf86f9be"/>
-<approved hash="19,1,f7d0b1e8b316f52e"/>
-<approved hash="19,1,46f3bd804d394659"/>
-<approved hash="5,1,f28e306cb3b472c6"/>
-<approved hash="19,1,1adbf516eac63ea6"/>
-<approved hash="19,1,07e3f0dce00423a6"/>
-<approved hash="19,1,52fa0b831d0a97d6"/>
-<approved hash="19,1,45fe11b910cc87d6"/>
-<approved hash="19,16,7d7fa88ba8077df3"/>
-<approved hash="19,16,67efb21bb1e76413"/>
-<approved hash="19,16,aeaa3b5e398dac79"/>
-<approved hash="19,16,d9b6b342bca0d654"/>
-<approved hash="19,16,11d93b2d3c821676"/>
-<approved hash="19,16,e81682e2bf10d5e4"/>
-<approved hash="19,16,fe8ad7e84af00652"/>
-<approved hash="5,16,305835e81cce69ac"/>
-<approved hash="19,16,0634921d7b1ba758"/>
-<approved hash="19,16,48301dcc4c607c5c"/>
-<approved hash="19,16,e75a6bbd8c8f0032"/>
-<approved hash="19,16,0f7526e8bdf0f1ad"/>
-<approved hash="5,16,30583514243251ac"/>
-<approved hash="19,16,cdb261ab16f33bb7"/>
-<approved hash="19,16,a733f2309f9caf5f"/>
-<approved hash="19,16,c63412e4cbe3d75f"/>
-<approved hash="19,16,5057616fdd9f07d2"/>
-<approved hash="19,16,fea123c99b83eec1"/>
-<approved hash="19,16,af106c2cdd77f53e"/>
-<approved hash="19,16,45288bd601f19b4f"/>
-<approved hash="19,16,5fd76efd61cdbb92"/>
-<approved hash="19,16,22d4bbe7cc60d624"/>
-<approved hash="19,16,ae916dbc5827707f"/>
-<approved hash="19,16,7b2f0cde8fc52769"/>
-<approved hash="19,16,c1e3941789c7dc33"/>
-<approved hash="19,16,515f5ead62d486e4"/>
-<approved hash="19,16,7e2423c99b8ad138"/>
-<approved hash="19,16,ae99535062bd74b6"/>
-<approved hash="19,16,452f8b6901f89b4a"/>
-<approved hash="19,16,5edf513fde863aa4"/>
-<approved hash="19,16,9c9f3b67cce9e8d8"/>
-<approved hash="19,16,af1852c0e7edf1f7"/>
-<approved hash="19,16,c5648ce08f4c192b"/>
-<approved hash="19,1,e2c51c3d1e19e0e1"/>
-<approved hash="19,1,2ee6901e92482cb0"/>
-<approved hash="19,1,1ad8e420e2431cbb"/>
-<approved hash="4,1,350e23f6dadebbe9"/>
-<approved hash="4,1,0d43b27050dd42a3"/>
-<approved hash="4,1,e5c4eadf275e352a"/>
-<approved hash="6,1,629581dfeafcf8b5"/>
-<approved hash="3,16,74267aef51fc5f35"/>
-<approved hash="3,1,59e35be15be159e3"/>
-<approved hash="4,1,7a7b942adbe5815f"/>
-<approved hash="4,1,c4333cd262fd276c"/>
-<approved hash="19,1,e6c6183e1aa4e45c"/>
-<approved hash="19,1,6ed6902e9eab6053"/>
-<approved hash="19,1,26bc98449a0824f0"/>
-<approved hash="4,1,8f7499525e2f81d3"/>
-<approved hash="4,1,948c2b8ed7f75a66"/>
-<approved hash="4,1,7bf37423a6202b4d"/>
-<approved hash="6,1,1739390b39f817ca"/>
-<approved hash="6,1,68e61852094d2792"/>
-<approved hash="6,1,d029121b1228d01a"/>
-<approved hash="6,1,62940ede75fd7db5"/>
-<approved hash="6,1,62940ede75fd7db5"/>
-<approved hash="19,1,79f227ca25dc7be4"/>
-<approved hash="19,1,7dc223fa24e47adc"/>
-<approved hash="19,1,7bfe25c627b4798c"/>
-<approved hash="19,1,e9c1abf9acddeee5"/>
-<approved hash="19,1,edf1afc9ade5efdd"/>
-<approved hash="19,1,effdadc5af8dedb5"/>
-<approved hash="19,1,fdc3bbfbbcdbfae3"/>
-<approved hash="19,1,fbffbdc7bf8bf9b3"/>
-<approved hash="19,1,f9f3bfcbbde3fbdb"/>
-<approved hash="19,1,46e0bd8c4d274647"/>
-<approved hash="5,1,f100306bb02970c6"/>
-<approved hash="19,1,07dfeca27439a327"/>
-<approved hash="19,1,09dff3906177ada7"/>
-<approved hash="19,1,479a1404978802de"/>
-<approved hash="19,1,4d160a069cb617fe"/>
-<approved hash="19,16,5b6f8e9bb1c76433"/>
-<approved hash="19,16,af653a913628a3dc"/>
-<approved hash="19,16,7affaf0ba9877c73"/>
-<approved hash="19,16,d6e5bc11bcc7d633"/>
-<approved hash="19,16,ed1587e1816feb9b"/>
-<approved hash="19,16,132b39df3f7c1588"/>
-<approved hash="19,16,f01dd7a1cab3875b"/>
-<approved hash="5,16,37dc332e9d88ee24"/>
-<approved hash="19,16,08bf9dd4facc27cd"/>
-<approved hash="19,16,47bb1285cd3ff255"/>
-<approved hash="19,16,6994e53b829e00fe"/>
-<approved hash="19,16,01e226a13db370a4"/>
-<approved hash="5,16,37dc33d2a574d624"/>
-<approved hash="19,16,4260ef2719fe3b71"/>
-<approved hash="19,16,a8b8fd791ec32156"/>
-<approved hash="19,16,c8bf1d2d4a3457ca"/>
-<approved hash="19,16,138bd23e970e72bb"/>
-<approved hash="19,16,31e6ebe095db6a1a"/>
-<approved hash="19,16,a4e841bd382428b3"/>
-<approved hash="19,16,ae9f535eb013a610"/>
-<approved hash="19,16,f16ae20a0544e9d8"/>
-<approved hash="19,16,c37cc2200229fb4a"/>
-<approved hash="19,16,6fdf6021bd185924"/>
-<approved hash="19,16,3a4c002600063a6c"/>
-<approved hash="19,16,cc6fdd74e5650c41"/>
-<approved hash="19,16,f5dfd3f4e23ee1d2"/>
-<approved hash="19,16,095f06a3cdba2984"/>
-<approved hash="19,16,3818c5c519680f77"/>
-<approved hash="19,16,493d5474be07568c"/>
-<approved hash="19,16,7ded6e90639e8f1f"/>
-<approved hash="19,16,3fb9ca368f075e88"/>
-<approved hash="19,16,c09d956989a4dc50"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
