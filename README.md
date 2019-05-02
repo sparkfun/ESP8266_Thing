@@ -1,7 +1,7 @@
 SparkFun ESP8266 Thing
 ========================================
 
-![SparkFun ESP8266 Thing](https://cdn.sparkfun.com//assets/parts/1/0/4/0/0/13231-01.jpg)
+[![SparkFun ESP8266 Thing](https://cdn.sparkfun.com//assets/parts/1/0/4/0/0/13231-01.jpg)](https://www.sparkfun.com/products/13231)
 
 [*SparkFun ESP8266 Thing (WRL-13231)*](https://www.sparkfun.com/products/13231)
 
