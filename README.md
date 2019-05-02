@@ -24,6 +24,7 @@ Documentation
 
 Product Versions
 ----------------
+* [DEV-15258](https://www.sparkfun.com/products/15258)- The Thing in a starter kit.
 * [DEV-13231](https://www.sparkfun.com/products/13231)- V1.0 release of the Thing.
 
 
